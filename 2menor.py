@@ -18,5 +18,4 @@ for _ in range(qnt-2):
     if segmenor > n and n > menor:
         segmenor = n
         
-   
 print(segmenor)        
