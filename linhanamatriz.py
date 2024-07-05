@@ -7,13 +7,13 @@ dim = 12
 
 for m in range(dim):
     linha = []
-    for n in range(dim):
+    for N in range(dim):
         linha.append(float(input()))
     matriz.append(linha)
 soma = 0
 media = 0
 if operacao == 'S':
-    media = sum(matriz[n-1])
+    media = sum(matriz[n])
 else:
-    media = (sum(matriz[n-1]))/dim
+    media = (sum(matriz[n]))/dim
 print(f"{media:.1f}")
